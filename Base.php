@@ -1,5 +1,7 @@
 <?php
 /**
+ * https://github.com/mudonat/mdo-model
+ * 
  * Basic PDO model class.
  * Configuration parameters set in application.ini like;
  * 

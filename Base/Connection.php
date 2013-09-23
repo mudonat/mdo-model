@@ -1,5 +1,7 @@
 <?php
 /**
+ * https://github.com/mudonat/mdo-model
+ * 
  * PDO connection class
  * @package Library
  * @subpackage Model

@@ -1,5 +1,7 @@
 <?php
 /**
+ * https://github.com/mudonat/mdo-model
+ * 
  * Logger class for MDO_Model_Base
  * You can activate logging option with your model using activateLogger() method.
  * You can expand this logger with your class but to use your logger with MDO_Model_Base, you have to extend your logger class with MDO_Model_Logger.

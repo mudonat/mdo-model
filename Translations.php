@@ -1,6 +1,8 @@
 <?php
 
 /** 
+ * https://github.com/mudonat/mdo-model
+ * 
  * Single table based translation class
  * 
  * Table structure for table `translations`
