@@ -1,7 +1,7 @@
 <?php
 class MDO_Example_Model extends MDO_Model_Base{
 	protected $tableName = 'example_model';
-	protected $primaryKey = 'example_model_id';
+	protected $primaryKey = 'example_model_id';
 	protected $tableFields = array('example_model_id'=>'integer',
 								   'example_text'=>'text',
 								   'example_active'=>'tinyint',//1,0
@@ -27,7 +27,7 @@ class MDO_Example_Model extends MDO_Model_Base{
 		if($data){
 			$status = $this->update($rowId, $newData);
 			if($status)
-				$this->getLogger()->addLog($_SESSION['current_user_idblabla'], $this->getTableName(), $rowId, MDO_Model_Logger::UPDATE, $data, $newData)
+				$this->getLogger()->addLog($_SESSION['current_user_idblabla'], $this->getTableName(), $rowId, MDO_Model_Logger::UPDATE, $data, $newData);
 			
 		}
 		return $status;
