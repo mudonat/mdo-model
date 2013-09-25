@@ -287,12 +287,12 @@ class MDO_Model_Base{
 							return true;
 						}
 					}
-					return false;
 				}else{
 					throw new Exception('Modified data has to be key value array');
 				}
 			}
 		}
+		return false;
 	}
 
 	/**
